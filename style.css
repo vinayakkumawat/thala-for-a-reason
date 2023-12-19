@@ -2,7 +2,6 @@
     font-family: 'Comic Neue', cursive;
     text-align: center;
     transition: all 0.3s ease;
-    margin: 40px 0px;
 }
 
 a {
@@ -29,7 +28,7 @@ a:hover {
 }
 
 .heading {
-    margin-top: 64px;
+    padding-top: 32px;
     font-size: 24px;
 }
 
@@ -68,7 +67,7 @@ a:hover {
 }
 
 .footer {
-    margin-bottom: 64px;
+    padding-bottom: 32px;
     font-size: 24px;
 }
 
