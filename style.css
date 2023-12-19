@@ -47,12 +47,14 @@ a:hover {
     padding: 15px 30px;
     font-size: 28px;
     text-align: left;
+    border-radius: 10px;
 }
 
 .checkButton {
     padding: 15px 30px;
     font-size: 28px;
     font-weight: 900;
+    border-radius: 10px;
     background-color: #ffdf29;
 }
 
