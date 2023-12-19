@@ -1,0 +1,315 @@
+* {
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#confetti {
+    display: none;
+}
+
+.thala-checker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    height: 100vh;
+}
+
+.heading {
+    margin-top: 64px;
+    font-size: 24px;
+}
+
+.checker {
+    padding: 64px 256px;
+    background-color: #008080;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    align-items: center;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+.inputField {
+    padding: 15px 30px;
+    font-size: 28px;
+    text-align: left;
+}
+
+.checkButton {
+    padding: 15px 30px;
+    font-size: 28px;
+    font-weight: 900;
+    background-color: #ffdf29;
+}
+
+.checkButton:hover {
+    cursor: pointer;
+    background-color: #fff48d;
+}
+
+#thala {
+    color: #fff;
+    font-size: 32px;
+}
+
+.footer {
+    margin-bottom: 64px;
+    font-size: 24px;
+}
+
+.social-icon {
+    height: 24px;
+    width: 24px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+    a {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .checker {
+        padding: 64px 256px;
+        gap: 48px;
+    }
+
+    .inputField {
+        font-size: 28px;
+        padding: 15px 30px;
+    }
+
+    .checkButton {
+        font-size: 28px;
+        padding: 15px 30px;
+    }
+
+    #thala {
+        font-size: 32px;
+    }
+
+    .footer {
+        margin-bottom: 64px;
+        font-size: 24px;
+    }
+    
+    .social-icon {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    a {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .checker {
+        padding: 50px 100px;
+        gap: 48px;
+    }
+
+    .inputField {
+        font-size: 24px;
+        padding: 15px 30px;
+    }
+
+    .checkButton {
+        font-size: 24px;
+        padding: 15px 30px;
+    }
+
+    #thala {
+        font-size: 28px;
+    }
+
+    .footer {
+        margin-bottom: 64px;
+        font-size: 20px;
+    }
+    
+    .social-icon {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    a {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .checker {
+        padding: 50px 100px;
+        gap: 28px;
+    }
+
+    .inputField {
+        font-size: 24px;
+        padding: 15px 30px;
+    }
+
+    .checkButton {
+        font-size: 24px;
+        padding: 15px 30px;
+    }
+
+    #thala {
+        font-size: 28px;
+    }
+
+    .footer {
+        margin-bottom: 64px;
+        font-size: 20px;
+    }
+    
+    .social-icon {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    a {
+        font-size: 18px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .checker {
+        padding: 50px 40px;
+        gap: 28px;
+    }
+
+    .inputField {
+        font-size: 24px;
+        padding: 15px 30px;
+    }
+
+    .checkButton {
+        margin-top: 10px;
+        font-size: 24px;
+        padding: 10px 20px;
+    }
+
+    #thala {
+        font-size: 24px;
+    }
+
+    .footer {
+        margin-bottom: 64px;
+        font-size: 20px;
+    }
+    
+    .social-icon {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    a {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    .checker {
+        padding: 40px 20px;
+        gap: 24px;
+    }
+
+    .inputField {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .checkButton {
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    #thala {
+        font-size: 20px;
+    }
+
+    .footer {
+        margin-bottom: 64px;
+        font-size: 20px;
+    }
+    
+    .social-icon {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    a {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    .checker {
+        padding: 40px 20px;
+        gap: 24px;
+    }
+
+    .inputField {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .checkButton {
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    #thala {
+        font-size: 20px;
+    }
+
+    .footer {
+        margin-bottom: 64px;
+        font-size: 20px;
+    }
+    
+    .social-icon {
+        height: 20px;
+        width: 20px;
+    }
+}
